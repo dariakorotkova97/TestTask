@@ -1,0 +1,8 @@
+locators\MailPageLocators.class
+pages\AuthorizationPageMethods.class
+tools\ConfigProperties.class
+locators\HomePageLocators.class
+tools\DriversFactory.class
+pages\MailPageMethods.class
+locators\AuthorizationPageLocators.class
+pages\HomePageMethods.class

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GoogleMailTest" parallel="tests" thread-count="2">
+    <test name="GoogleMailTestChrome" >
+        <parameter name="BrowserName" value="chrome"/>
+        <classes>
+            <class name="GoogleMailTest"/>
+        </classes>
+    </test>
+   <!--- <test name="GoogleMailTestIE" >
+        <parameter name="BrowserName" value="internet explorer"/>
+        <classes>
+            <class name="GoogleMailTest"/>
+        </classes>
+    </test> -->
+</suite>
