@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 
 import static org.openqa.selenium.By.xpath;
 
-/**Локаторы для страницы авторизации*/
 public class AuthorizationPageLocators {
     public static final By LOGIN_FIELD = xpath("//*[@id='identifierId']");
     public static final By LOGIN_NEXT_BUTTON = xpath("//*[@id='identifierNext']");
